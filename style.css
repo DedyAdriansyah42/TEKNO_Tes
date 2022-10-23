@@ -1,0 +1,102 @@
+.jumbotron {
+  padding-top: 20rem;
+  width: auto;
+  height: 720px ;
+  background-image: url(img/project/Gedung-Teknokrat-2048x2048.jpg);
+  object-fit: cover;
+}
+
+#fakultas {
+  height: auto;
+  width: 100vw;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background: #E7FBBE;
+}
+
+#fakultas h1 {
+  text-align: center;
+  color: #c71902;
+  font-size: 4rem;
+  margin: 2rem 0;
+}
+
+#fakultas .card-container {
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+}
+
+#galeri {
+  margin-bottom: 200px;
+  margin-top: 200px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: auto;
+  width: 100vw;
+  background: #E7FBBE;
+}
+
+#galeri h1 {
+  text-align: center;
+  font-size: 4rem;
+  color: #E6022D;
+  margin: 2rem 0;
+}
+
+#galeri .image-container {
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+#galeri .image-container .image {
+  height: 25rem;
+  width: 30rem;
+  margin: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+#galeri .image-container .image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#projects {
+  background-color: #E7FBBE;
+}
+#lokasi{
+  background-color: #E7FBBE;
+}
+#footer .contact-info img{
+  margin-top: 2rem;
+}
+section {
+  padding-top: 5rem;
+}
+
+footer {
+  background-color: #4E944F;
+}
+
+nav {
+  background-color: #4E944F;
+}
+
